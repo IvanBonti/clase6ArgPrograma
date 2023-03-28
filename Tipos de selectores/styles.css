@@ -1,0 +1,49 @@
+Selector universal
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: red;
+  }
+  
+  /* Selector de etiqueta */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Selector descendente */
+  div p {
+    font-style: italic;
+  }
+  
+  /* Selector de clase */
+  .resaltado {
+    background-color: yellow;
+  }
+  
+  /* Selector de identificación */
+  #titulo-principal {
+    text-align: center;
+  }
+  
+  /* Selectores combinados */
+  .resaltado, h2 {
+    color: red;
+  }
+  
+  /* Selector de hijos */
+  ul > li {
+    background-color: violet;
+  }
+  
+  /* Selector adyacente */
+  /* Se lo pone al siguiente, que es el p no al h1 */
+  h1 + p {
+    background-color: brown;
+  }
+  
+  /* Selector de atributos */
+  li[class="resaltado"] {
+    font-weight: bold;
+  }

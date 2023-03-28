@@ -1,0 +1,39 @@
+/* Pseudoclase :hover */
+ul li:hover {
+  background-color: #eee;
+}
+
+/* Pseudoclase :active */
+button:active {
+  background-color: blue;
+  color: white;
+}
+
+/* Pseudoelemento ::before */
+label::before {
+  content: "*";
+  color: red;
+  padding-right: 5px;
+}
+
+/* Pseudoelemento ::after */
+button::after {
+  content: " →";
+}
+
+/* Pseudoclase :nth-child */
+ul li:nth-child(2n) {
+  color: green;
+}
+
+/* Pseudoclase :not */
+form input:not([type="submit"]) {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Pseudoclase :first-of-type */
+input:first-of-type {
+  margin-top: 10px;
+}
